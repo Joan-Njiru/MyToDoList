@@ -1,0 +1,95 @@
+body {
+    margin-left: 30%;
+    background-color: azure;
+    
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #container {
+    margin: 0 auto;
+    width: 70%;
+    border: solid thin silver;
+    border-radius: 10px;
+    background-color:  rgb(42, 42, 56);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .add-button {
+    float: right;
+    margin-right: 2%;
+  }
+  
+  #new-task {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 4%;
+  }
+  
+  button {
+    background-color: rgb(245 , 122, 65);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #f37d46;
+  }
+  
+  #task-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-right: 7%;
+  }
+  
+  #task-list li input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #task-list li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .delete-button {
+    background-color: rgb(245 , 122, 65);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  
+  .clear-button {
+    margin-left: 45%;
+    margin-bottom: 5%;
+  }
+  

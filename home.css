@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(42, 42, 56);
+    color: white;
+    margin-left: 20%;
+}
+#doIt{
+    color:  rgb(245, 122, 65);
+}
+#lady{
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+#start{
+    background-color: rgb(245 , 122, 65);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+
+}
